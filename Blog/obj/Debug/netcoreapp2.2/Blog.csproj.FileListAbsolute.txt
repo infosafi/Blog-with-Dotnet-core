@@ -1,0 +1,179 @@
+D:\ASP.NET CORE\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.deps.json
+D:\ASP.NET CORE\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.runtimeconfig.json
+D:\ASP.NET CORE\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.runtimeconfig.dev.json
+D:\ASP.NET CORE\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.dll
+D:\ASP.NET CORE\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.pdb
+D:\ASP.NET CORE\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.Views.dll
+D:\ASP.NET CORE\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.Views.pdb
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.csprojAssemblyReference.cache
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.csproj.CoreCompileInputs.cache
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorAssemblyInfo.cache
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorAssemblyInfo.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.AssemblyInfoInputs.cache
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.AssemblyInfo.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.TagHelpers.input.cache
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.TagHelpers.output.cache
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorCoreGenerate.cache
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AllUsers.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_Layout.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blogs\Index.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Register.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Delete.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Details.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Create.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Delete.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Details.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Edit.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Index.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorTargetAssemblyInfo.cache
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorTargetAssemblyInfo.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.Views.pdb
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.dll
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.pdb
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.csproj.CopyComplete
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AllCategory.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AddCategory.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Create.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Delete.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Details.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Edit.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Index.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blogs\NewPost.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AllPosts.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\SinglePosts.g.cshtml.cs
+D:\ASP.NET CORE\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SidebarPartial.g.cshtml.cs
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.deps.json
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.runtimeconfig.json
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.runtimeconfig.dev.json
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.dll
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.pdb
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.Views.dll
+D:\Blog 191029\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.Views.pdb
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.csprojAssemblyReference.cache
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.csproj.CoreCompileInputs.cache
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorAssemblyInfo.cache
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorAssemblyInfo.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.AssemblyInfoInputs.cache
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.AssemblyInfo.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.TagHelpers.input.cache
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.TagHelpers.output.cache
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorCoreGenerate.cache
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AddCategory.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AllCategory.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AllPosts.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AllUsers.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_Layout.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blogs\Index.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blogs\NewPost.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Register.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\SinglePosts.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Create.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Delete.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Details.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Edit.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Index.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Delete.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Details.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SidebarPartial.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Create.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Delete.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Details.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Edit.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Index.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorTargetAssemblyInfo.cache
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorTargetAssemblyInfo.cs
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.Views.pdb
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.dll
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.pdb
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.genruntimeconfig.cache
+D:\Blog 191029\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.csproj.CopyComplete
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\appsettings.Development.json
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\appsettings.json
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.deps.json
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.runtimeconfig.json
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.runtimeconfig.dev.json
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.dll
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.pdb
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.Views.dll
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\bin\Debug\netcoreapp2.2\Blog.Views.pdb
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.csprojAssemblyReference.cache
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.AssemblyInfoInputs.cache
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.AssemblyInfo.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorAssemblyInfo.cache
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorAssemblyInfo.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.TagHelpers.input.cache
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.TagHelpers.output.cache
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorCoreGenerate.cache
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AddCategory.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AllCategory.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AllPosts.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AllUsers.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\_Layout.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blogs\Index.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Blogs\NewPost.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\Register.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Home\SinglePosts.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Create.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Delete.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Details.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Edit.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Index.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Delete.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Details.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SidebarPartial.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Create.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Delete.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Details.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Edit.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\Users\Index.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorTargetAssemblyInfo.cache
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.RazorTargetAssemblyInfo.cs
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.Views.pdb
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.dll
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.pdb
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.genruntimeconfig.cache
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.csproj.CopyComplete
+H:\Safi-backup\BACKUP\Blog\Blog\Blog\obj\Debug\netcoreapp2.2\Blog.csproj.CoreCompileInputs.cache

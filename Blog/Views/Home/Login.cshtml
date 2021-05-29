@@ -1,0 +1,38 @@
+﻿@model Blog.ViewModel.ViewUsers
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+@if(ViewBag.msg != null)
+{
+    <label class="alert alert-info">@ViewBag.msg</label>
+}
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>       
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input type="password" name="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-default btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Register" asp-controller="Home">Dont have a Account?</a>
+</div>
+
+
+

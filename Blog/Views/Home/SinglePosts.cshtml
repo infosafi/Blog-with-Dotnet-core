@@ -1,0 +1,40 @@
+﻿@model Blog.Models.Posts
+@{
+    ViewData["Title"] = "SinglePosts";
+}
+<div class="row">
+    <div class="col-md-8">
+
+        <div class="col-md-12">
+            <div class="post post-thumb">
+                <a class="post-img" asp-controller="Home" asp-action="SinglePosts" asp-route-id="@Model.Id"><img src="@Model.Thumbnail" alt=""></a>
+                <div class="post-body">
+                    <div class="post-meta">
+                        <a class="post-category cat-2" asp-controller="Home" asp-action="SinglePosts" asp-route-id="@Model.Id">JavaScript</a>
+                        <span class="post-date">@Model.Posteddate.ToString("dd-MMM-yyyy hh:mm: tt")</span>
+                    </div>
+                    <h3 class="post-title"><a asp-controller="Home" asp-action="SinglePosts" asp-route-id="@Model.Id">Javascript : Prototype vs Class</a></h3>
+                </div>
+            </div>
+            <div class="section-row sticky-container">
+                <div class="main-post">
+                    <h3>@Model.HangerTitle</h3>
+                    @Model.Description
+                </div>
+                <div class="post-shares sticky-shares">
+                    <a href="#" class="share-facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="share-twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="share-google-plus"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="share-pinterest"><i class="fa fa-pinterest"></i></a>
+                    <a href="#" class="share-linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+    </div>
+
+    @await Html.PartialAsync("_SidebarPartial")
+
+</div>

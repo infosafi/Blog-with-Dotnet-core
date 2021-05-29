@@ -1,0 +1,67 @@
+﻿@model  Blog.ViewModel.ViewUsers
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Create a New Account</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Register" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mobile" class="control-label"></label>
+                <input asp-for="Mobile" class="form-control" />
+                <span asp-validation-for="Mobile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Webaddress" class="control-label"></label>
+                <input asp-for="Webaddress" class="form-control" />
+                <span asp-validation-for="Webaddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SocialLink" class="control-label"></label>
+                <input asp-for="SocialLink" class="form-control" />
+                <span asp-validation-for="SocialLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Images" class="control-label"></label>
+                <input asp-for="Images" class="form-control" />
+                <span asp-validation-for="Images" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input type="password" name="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-default btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Login" asp-controller="Home">Already Registered?</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "Dashboard";
+}
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-file-pdf-o fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">@ViewBag.TotalUsers</div>
+                        <div>Total Users </div>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="MapApplication" asp-route-type="all">
+                <div class="panel-footer">
+                    <span class="pull-left">Click for Details</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-tasks fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">@ViewBag.TotalPosts</div>
+                        <div>Total Posts </div>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="MapApplication" asp-route-type="paid">
+                <div class="panel-footer">
+                    <span class="pull-left">Click for Details</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-shopping-cart fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">@ViewBag.TotalCategory</div>
+                        <div>Total Category</div>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="MapApplication" asp-route-type="delv">
+                <div class="panel-footer">
+                    <span class="pull-left">Click for Details</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-red">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-support fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="huge">@ViewBag.TotalPublished</div>
+                        <div>Published Posts</div>
+                    </div>
+                </div>
+            </div>
+            <a asp-action="MapApplication" asp-route-type="proc">
+                <div class="panel-footer">
+                    <span class="pull-left">Click for Details</span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <div class="clearfix"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+

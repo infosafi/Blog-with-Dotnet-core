@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["Title"] = "All Posts";
+    int i = 1;
+}
+
+<div class="col-md-12">
+    <table class="table table-bordered table-responsive">
+        <thead>
+            <tr>
+                <th>Sl</th>
+                <th>Title</th>
+                <th>Posted Date</th>
+                <th>View</th>
+                <th>Featured</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.userposts)
+            {
+                <tr>
+                    <td>@i.</td>
+                    <td class="small">@item.Title</td>
+                    <td class="small">@item.Posteddate.ToString("dd-MMM-yyyy hh:mm: tt")</td>
+                    <td>@item.ViewCount</td>
+                    <td>
+                        @if (item.Featured)
+                        {
+                            <button class="btn btn-xs btn-success">Yes</button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-xs btn-warning">No</button>
+                        }
+                    </td>
+                    <td>
+                        @if (item.IsActive)
+                        {
+                            <button class="btn btn-xs btn-success">Published</button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-xs btn-warning">Unpublish</button>
+                        }
+                    </td>
+                    <td>
+
+                        <div class="dropdown">
+                            <button class="btn btn-primary btn-xs dropdown-toggle" type="button" data-toggle="dropdown">
+                                Action
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li><a href="#">Remove</a></li>
+                                @if (item.Featured == false)
+                                {
+                                    <li><a asp-controller="Admin" asp-action="UpdateStatus" asp-route-id="@item.Id" asp-route-status="True" asp-route-type="Featured">Set Featured</a></li>
+                                }
+                                else
+                                {
+                                    <li><a asp-controller="Admin" asp-action="UpdateStatus" asp-route-id="@item.Id" asp-route-status="False" asp-route-type="Featured">Un-Featured</a></li>
+                                }
+                                @if (item.IsActive == true)
+                                {
+                                    <li><a asp-controller="Admin" asp-action="UpdateStatus" asp-route-id="@item.Id" asp-route-status="False" asp-route-type="Publish">Unpublish</a></li>
+                                }
+                                else
+                                {
+                                    <li><a asp-controller="Admin" asp-action="UpdateStatus" asp-route-id="@item.Id" asp-route-status="True" asp-route-type="Publish">publish</a></li>
+                                }
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                i++;
+                                    }
+        </tbody>
+    </table>
+</div>
+

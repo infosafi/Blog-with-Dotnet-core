@@ -1,0 +1,78 @@
+﻿@model Blog.Models.Users
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Users</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Mobile)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Mobile)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Webaddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Webaddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SocialLink)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SocialLink)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Images)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Images)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Isactive)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Isactive)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Roles)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Roles.RoleName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

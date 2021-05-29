@@ -1,0 +1,102 @@
+﻿@model Blog.ViewModel.ViewPosts
+
+@{
+    ViewData["Title"] = "New Posts";
+}
+
+<h2>Make a New Post</h2>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NewPost" asp-controller="Blogs" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Main Category</label>
+                <select class="form-control" id="PCateId" name="PCateId">
+                    <option value="0">Select Category</option>
+                    @if (ViewBag.category != null)
+                    {
+                        @foreach (var item in ViewBag.category)
+                        {
+                            <option value="@item.Id">@item.CategoryName</option>
+                        }
+                    }
+                </select>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label">Sub Category</label>
+                <select class="form-control" id="CateId" name="CateId">                 
+                    
+                </select>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HangerTitle" class="control-label"></label>
+                <input asp-for="HangerTitle" class="form-control" />
+                <span asp-validation-for="HangerTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Thumbnail" class="control-label"></label>
+                <input asp-for="Thumbnail" class="form-control" />
+                <span asp-validation-for="Thumbnail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tags" class="control-label"></label>
+                <input asp-for="Tags" class="form-control" />
+                <span asp-validation-for="Tags" class="text-danger"></span>
+            </div>           
+            <div class="form-group">
+                <input type="submit" value="Save Your Posts" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-controller="Blogs">Go to Your Dashboard</a>
+</div>
+
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#PCateId").change(function () {
+                var id = $("#PCateId option:selected").val();
+                 //alert(id);
+                $("#CateId").empty();               
+                $.ajax({
+                  url: '@Url.Action("GetCategory","Blogs")',
+                  data: { id: id },
+                    cache: false,
+                    type: 'GET',
+                    dataType: 'JSON',
+                    success: function (data) {
+                        console.log(data);
+
+                        $("#CateId").append('<option value="0">--Select Category--</option>');
+                        $.each(data, function (i, obj) {
+                            var s = '<option value="' + obj.id + '">' + obj.categoryName + '</option>';
+                            $("#CateId").append(s);
+                        });
+
+                    },
+                    error: function (err) {
+
+                    }
+                });
+                  });
+        });
+    </script>
+    }

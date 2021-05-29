@@ -1,0 +1,67 @@
+﻿@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Index";
+    int i = 1;
+}
+
+<h2 class="">Hey <span class="text-primary">@Context.Session.GetString("Name")</span> !! Welcome </h2>
+<div class="row">
+    <div class="col-md-3">
+        @foreach (var items in ViewBag.userinfo)
+        {
+            <img src="@items.Images" class="img img-thumbnail img-responsive" />
+           <span>Email: @items.Email</span>
+        }
+    </div>
+    <div class="col-md-9">
+        <h4>Your Posts</h4>
+        <table class="table table-bordered table-responsive">
+            <thead>
+                <tr>
+                    <th>Sl</th>
+                    <th>Title</th>
+                    <th>Posted Date</th>
+                    <th>View</th>
+                    <th>Featured</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        <tbody>
+            @foreach (var item in ViewBag.userposts)
+            {
+            <tr>
+                <td>@i.</td>
+                <td class="small">@item.Title</td>
+                <td class="small">@item.Posteddate.ToString("dd-MMM-yyyy hh:mm: tt")</td>
+                <td>@item.ViewCount</td>
+                <td>
+                    @if (item.Featured)
+                    {
+                        <button class="btn btn-xs btn-success">Yes</button>
+                    }
+                    else
+                    {
+                        <button class="btn btn-xs btn-warning">No</button>
+                    }
+                </td>
+                <td>
+                    @if (item.IsActive)
+                    {
+                        <button class="btn btn-xs btn-success">Published</button>
+                    }
+                    else
+                    {
+                        <button class="btn btn-xs btn-warning">Unpublish</button>
+                    }
+                            </td>
+                <td>
+                    <a asp-action="DeletePost" class="btn btn-xs btn-danger"><span class="fa fa-remove fa-fw"></span></a>
+                </td>
+            </tr>
+                i++;
+            }
+        </tbody>
+        </table>
+    </div>
+</div>

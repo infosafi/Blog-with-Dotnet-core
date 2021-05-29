@@ -1,0 +1,124 @@
+﻿@model PaginatedList<Blog.Models.Posts>
+@{
+    ViewData["Title"] = "Home Page";
+    int cp = Model.PageIndex;
+    int tp = Model.TotalPages;
+    var prev = Model.HasPreviousPage == true ? "" : "disabled";
+    var next = Model.HasNextPage == true ? "" : "disabled";
+    int i = (cp - 1) * 5 + 1;
+    int j = 1;
+}
+<div class="row">
+    <div class="col-md-8">
+        <div class="row">
+            @foreach (var fitem in ViewBag.Feature)
+            {
+
+                if (j == 1)
+                {
+                    <div class="col-md-12">
+                        <div class="post post-thumb">
+                            <a class="post-img" asp-controller="Home" asp-action="SinglePosts" asp-route-id="@fitem.Id"><img style="max-height:400px;" src="@fitem.Thumbnail" alt=""></a>
+                            <div class="post-body">
+                                <div class="post-meta">
+                                    <a class="post-category cat-2" href="#">JavaScript</a>
+                                    <span class="post-date">@fitem.Posteddate.ToString("dd-MMM-yyyy hh:mm tt")</span>
+                                </div>
+                                <h3 class="post-title"><a asp-controller="Home" asp-action="SinglePosts" asp-route-id="@fitem.Id">@fitem.Title</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-md-6">
+                        <div class="post">
+                            <a class="post-img" asp-controller="Home" asp-action="SinglePosts" asp-route-id="@fitem.Id"><img src="@fitem.Thumbnail" alt=""></a>
+                            <div class="post-body">
+                                <div class="post-meta">
+                                    <a class="post-category cat-2" href="#">JavaScript</a>
+                                    <span class="post-date">@fitem.Posteddate.ToString("dd-MMM-yyyy hh:mm tt")</span>
+                                </div>
+                                <h3 class="post-title"><a asp-controller="Home" asp-action="SinglePosts" asp-route-id="@fitem.Id">@fitem.Title</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                }
+                j++;
+            }
+            <div class="clearfix visible-md visible-lg"></div>
+
+            <!-- ad -->
+            <div class="col-md-12">
+                <div class="section-row">
+                    <a href="#">
+                        <img class="img-responsive center-block" src="./img/ad-2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- ad -->
+            <!-- post -->
+            @foreach (var item in Model)
+            {
+                <div class="col-md-12">
+                    <div class="post post-row">
+                        <a class="post-img" asp-controller="Home" asp-action="SinglePosts" asp-route-id="@item.Id"><img src="@item.Thumbnail" alt=""></a>
+                        <div class="post-body">
+                            <div class="post-meta">
+                                <a class="post-category cat-2" asp-controller="Home" asp-action="SinglePosts" asp-route-id="@item.Id">JavaScript</a>
+                                <span class="post-date">@item.Posteddate.ToString("dd-MMM-yyyy hh:mm tt")</span>
+                            </div>
+                            <h3 class="post-title"><a asp-controller="Home" asp-action="SinglePosts" asp-route-id="@item.Id">@item.Title</a></h3>
+                            @if (item.Description.Length > 180)
+                            {
+                                <p>@item.Description.Substring(0, 180)</p>
+                            }
+                            else
+                            {
+                                <p>@item.Description</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <!-- /post -->
+            }
+
+            <div class="col-md-12">
+                <ul class="pagination">
+                    <li>
+                    </li>
+                    <li class="page-item">
+                        <a asp-action="Index" asp-route-page="1"
+                           class="page-link" tabindex="-1">First</a>
+                    </li>
+                    <li class="page-item @prev">
+                        <a asp-action="Index" asp-route-page="@(cp-1)"
+                           class="page-link @prev" tabindex="-1">Prev</a>
+                    </li>
+                    @for (int k = 1; k <= Model.TotalPages; k++)
+                    {
+                        if (k >= cp - 5 && k <= cp + 5)
+                        {
+
+                            <li class="page-item @(k == cp ? "active" : "") ">
+                                <a asp-action="Index" asp-route-page="@k" class="page-link">@k </a>
+                            </li>
+                        }
+                    }
+
+                    <li class="page-item @next">
+                        <a asp-action="Index" asp-route-page="@(cp+1)"
+                           class="page-link @next" tabindex="-1">Next</a>
+                    </li>
+                    <li class="page-item">
+                        <a asp-action="Index" asp-route-page="@tp"
+                           class="page-link" tabindex="-1">Last</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    @await Html.PartialAsync("_SidebarPartial")
+</div>
